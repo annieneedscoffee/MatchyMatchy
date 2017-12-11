@@ -12,8 +12,30 @@
       <h1>{{ title }}</h1>
     </div>
     <div id="main">
+      <h1>Crowd-Sourced Personal Shopping</h1>
+      <div>
+        <div id=shopper>
+          Free cutting edge fashion advice to find great matches for what you already own.
+        </div>
+        <div id=matcher>
+
+          Turn your fashion sense into cash - matchmake!
+        </br>
+
+        </div>
+        <div id="retailer">
+          Sell your products and get noticed by personal shoppers!
+
+        </div>
+      </div>
     </div>
     <div id="footer">
+      <div id="buttons">
+      <button v-on:click="prompt('Please enter user name.')">User Login</button>
+        <button v-on:click="prompt('Please select a user name.')">User Signup</button>
+          <button v-on:click="prompt('Please enter retailer name.')">Retailer Login</button>
+            <button v-on:click="prompt('Please select a retailer name.')">Retailer Signup</button>
+          </div>
     </div>
     </div>
   </body>

@@ -3,6 +3,10 @@ h1{
   font-family: cursive;
 }
 
+#buttons{
+  margin-left: 35%;
+}
+
 #header{
 
 }
@@ -14,4 +18,16 @@ height: 500px;
 
 #footer{
 
+}
+
+#shopper, #matcher, #retailer{
+  display: inline-block;
+  height:250px;
+  width: 250px;
+  background-color: grey;
+  color: white;
+  font-family: cursive;
+  font-size: 25px;
+margin: 20px;
+  text-align: center;
 }
